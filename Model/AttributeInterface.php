@@ -1,13 +1,13 @@
 <?php
 
-namespace Hadem\Component\Attribute\Model;
+namespace Ftos\Component\Attribute\Model;
 
 use Hadem\Entity\Model\TimestampInterface;
 
 /**
  * Interface AttributeInterface
  *
- * @package Hadem\Component\Attribute\Model
+ * @package Ftos\Component\Attribute\Model
  */
 interface AttributeInterface extends TimestampInterface
 {

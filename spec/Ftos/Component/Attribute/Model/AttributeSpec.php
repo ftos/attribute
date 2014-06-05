@@ -1,26 +1,27 @@
 <?php
 
-namespace spec\Hadem\Component\Attribute\Model;
+namespace spec\Ftos\Component\Attribute\Model;
 
-use Hadem\Component\Attribute\Model\Types;
+use Ftos\Component\Attribute\Model\Types;
+
 use PhpSpec\ObjectBehavior;
 
 /**
  * Class AttributeSpec
  *
- * @package spec\Hadem\Component\Attribute\Model
+ * @package spec\Ftos\Component\Attribute\Model
  */
 class AttributeSpec extends ObjectBehavior
 {
 
     public function it_is_initializable ()
     {
-        $this->shouldHaveType('Hadem\Component\Attribute\Model\Attribute');
+        $this->shouldHaveType('Ftos\Component\Attribute\Model\Attribute');
     }
 
     public function it_implements_attribute_interface ()
     {
-        $this->shouldImplement('Hadem\Component\Attribute\Model\AttributeInterface');
+        $this->shouldImplement('Ftos\Component\Attribute\Model\AttributeInterface');
     }
 
     public function it_returns_name_when_converted_to_string ()

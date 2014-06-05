@@ -1,11 +1,11 @@
 <?php
 
-namespace Hadem\Component\Attribute\Model;
+namespace Ftos\Component\Attribute\Model;
 
 /**
  * Class Attribute
  *
- * @package Hadem\Component\Attribute\Model
+ * @package Ftos\Component\Attribute\Model
  */
 class Attribute implements AttributeInterface
 {

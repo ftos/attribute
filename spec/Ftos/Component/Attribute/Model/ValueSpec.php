@@ -1,31 +1,30 @@
 <?php
 
-namespace spec\Hadem\Component\Attribute\Model;
+namespace spec\Ftos\Component\Attribute\Model;
 
-use Hadem\Component\Attribute\Model\Attribute;
-use Hadem\Component\Attribute\Model\AttributeInterface;
-use Hadem\Component\Attribute\Model\SubjectInterface;
+use Ftos\Component\Attribute\Model\AttributeInterface;
+use Ftos\Component\Attribute\Model\SubjectInterface;
+use Ftos\Component\Attribute\Model\Types;
 
-use Hadem\Component\Attribute\Model\Types;
 use PhpSpec\ObjectBehavior;
 use PhpSpec\Wrapper\Subject;
 
 /**
  * Class ValueSpec
  *
- * @package spec\Hadem\Component\Attribute\Model
+ * @package spec\Ftos\Component\Attribute\Model
  */
 class ValueSpec extends ObjectBehavior
 {
 
     public function it_is_initializable ()
     {
-        $this->shouldHaveType('Hadem\Component\Attribute\Model\Value');
+        $this->shouldHaveType('Ftos\Component\Attribute\Model\Value');
     }
 
     public function it_implements_value_interface ()
     {
-        $this->shouldImplement('Hadem\Component\Attribute\Model\ValueInterface');
+        $this->shouldImplement('Ftos\Component\Attribute\Model\ValueInterface');
     }
 
     public function it_returns_value_when_converted_to_string ()

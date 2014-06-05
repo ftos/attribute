@@ -1,5 +1,5 @@
 {
-    "name": "hadem/attribute",
+    "name": "ftos/attribute",
     "type": "library",
     "description": "Simple PHP attribute/value component library.",
     "keywords": ["attribute", "value", "eav"],
@@ -23,10 +23,10 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-4": { "Hadem\\Component\\Attribute\\": "" }
+        "psr-4": { "Ftos\\Component\\Attribute\\": "" }
     },
     "autoload-dev": {
-        "psr-4": { "Hadem\\Component\\Attribute\\spec\\": "spec/" }
+        "psr-4": { "Ftos\\Component\\Attribute\\spec\\": "spec/" }
     },
     "extra": {
         "branch-alias": {

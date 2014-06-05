@@ -1,13 +1,13 @@
 <?php
 
-namespace Hadem\Component\Attribute\Model;
+namespace Ftos\Component\Attribute\Model;
 
 use Doctrine\Common\Collections\Collection;
 
 /**
  * Interface SubjectInterface
  *
- * @package Hadem\Component\Attribute\Model
+ * @package Ftos\Component\Attribute\Model
  */
 interface SubjectInterface
 {
