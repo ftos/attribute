@@ -1,0 +1,36 @@
+{
+    "name": "hadem/attribute",
+    "type": "library",
+    "description": "Simple PHP attribute/value component library.",
+    "keywords": ["attribute", "value", "eav"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+
+        "doctrine/collections": "1.2.*@dev",
+        "hadem/entity": "0.1.*@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hadem/entity"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "Hadem\\Component\\Attribute\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Hadem\\Component\\Attribute\\spec\\": "spec/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
