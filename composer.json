@@ -8,7 +8,7 @@
         "php": ">=5.4",
 
         "doctrine/collections": "1.2.*@dev",
-        "hadem/entity": "0.1.*@dev"
+        "ftos/entity": "0.1.*@dev"
     },
     "require-dev": {
         "phpspec/phpspec": "2.0.*"
@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/hadem/entity"
+            "url": "https://github.com/ftos/entity"
         }
     ],
     "config": {

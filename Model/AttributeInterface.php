@@ -2,7 +2,7 @@
 
 namespace Ftos\Component\Attribute\Model;
 
-use Hadem\Entity\Model\TimestampInterface;
+use Ftos\Entity\Model\TimestampInterface;
 
 /**
  * Interface AttributeInterface

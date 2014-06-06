@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-        "This file is @generated automatically"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "616a0353abec74670430a06144b1b04c",
+    "hash": "abb1e223739be22a7d00e60092b53e98",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -75,17 +74,17 @@
             "time": "2014-06-05 18:37:07"
         },
         {
-            "name": "hadem/entity",
+            "name": "ftos/entity",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hadem/entity.git",
-                "reference": "0975816b75fd0f4c4fe6b337d7eb069c3a2b3270"
+                "url": "https://github.com/ftos/entity.git",
+                "reference": "86740452963c7603bde8ce82bb38795923520784"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hadem/entity/zipball/0975816b75fd0f4c4fe6b337d7eb069c3a2b3270",
-                "reference": "0975816b75fd0f4c4fe6b337d7eb069c3a2b3270",
+                "url": "https://api.github.com/repos/ftos/entity/zipball/86740452963c7603bde8ce82bb38795923520784",
+                "reference": "86740452963c7603bde8ce82bb38795923520784",
                 "shasum": ""
             },
             "require": {
@@ -99,17 +98,17 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Hadem\\Entity\\": ""
+                    "Ftos\\Entity\\": ""
                 }
             },
             "license": [
                 "MIT"
             ],
             "support": {
-                "source": "https://github.com/hadem/entity/tree/master",
-                "issues": "https://github.com/hadem/entity/issues"
+                "source": "https://github.com/ftos/entity/tree/master",
+                "issues": "https://github.com/ftos/entity/issues"
             },
-            "time": "2014-06-05 20:35:22"
+            "time": "2014-06-06 01:28:13"
         }
     ],
     "packages-dev": [
@@ -495,7 +494,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "doctrine/collections": 20,
-        "hadem/entity": 20
+        "ftos/entity": 20
     },
     "platform": {
         "php": ">=5.4"
