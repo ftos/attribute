@@ -37,7 +37,7 @@ class Value implements ValueInterface
      */
     public function __toString ()
     {
-        return $this->getValue();
+        return ( is_null($this->getName()) ) ? sprintf('%s@%s', __CLASS__, spl_object_hash($this)) : $this->getName();
     }
 
     /**

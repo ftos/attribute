@@ -2,14 +2,14 @@
 
 namespace Ftos\Component\Attribute\Model;
 
-use Ftos\Entity\Model\TimestampInterface;
+use Ftos\Component\Timestamp\Model\TimestampableInterface;
 
 /**
  * Interface AttributeInterface
  *
  * @package Ftos\Component\Attribute\Model
  */
-interface AttributeInterface extends TimestampInterface
+interface AttributeInterface extends TimestampableInterface
 {
 
     /**

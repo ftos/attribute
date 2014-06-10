@@ -6,27 +6,20 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4",
-
         "doctrine/collections": "1.2.*@dev",
-        "ftos/entity": "0.1.*@dev"
+        "ftos/timestamp": "0.1.*@dev"
     },
     "require-dev": {
-        "phpspec/phpspec": "2.0.*"
+        "phpunit/phpunit": "4.1.*@dev"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ftos/entity"
-        }
-    ],
     "config": {
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-4": { "Ftos\\Component\\Attribute\\": "" }
+        "psr-4": { "Ftos\\Component\\Attribute\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Ftos\\Component\\Attribute\\spec\\": "spec/" }
+        "psr-4": { "Ftos\\Component\\Attribute\\Tests\\": "Tests/" }
     },
     "extra": {
         "branch-alias": {
