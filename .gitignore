@@ -1,5 +1,5 @@
 .idea/
 phpunit.xml
 bin/
-Tests/CodeCoverage/
+tmp/
 vendor/

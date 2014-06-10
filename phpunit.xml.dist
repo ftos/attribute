@@ -15,4 +15,10 @@
             </exclude>
         </whitelist>
     </filter>
+
+    <!--
+    <logging>
+        <log type="coverage-html" target="tmp/coverage" charset="UTF-8" highlight="true" />
+    </logging>
+    -->
 </phpunit>
